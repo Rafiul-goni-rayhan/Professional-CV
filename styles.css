@@ -1,0 +1,202 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    text-align: center;
+    background: linear-gradient(135deg, #9b4fec, #1941a6);
+    color: white;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.email-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+}
+.email-link:hover {
+    color: #e407bb;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.about-me {
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-me h2{
+    color: #6e21a9;
+}
+
+.skills {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skills h2{
+    color: #6e21a9;
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.experience {
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.experience h2{
+    color: #6e21a9;
+}
+.experience h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.experience p {
+    margin: 5px 0;
+}
+
+.education {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.education h2{
+    color: #6e21a9;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education th, .education td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.education th {
+    background-color: #333;
+    color: white;
+}
+
+.achievements {
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.achievements h2{
+    color: #6e21a9;
+}
+.achievements ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2{
+    color: #6e21a9;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+}
+.contact button:hover:enabled {
+    background-color: #d97474;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
